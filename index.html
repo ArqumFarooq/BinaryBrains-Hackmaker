@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initila-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Kris Online Academy - HOME Page</title>
+    <style>
+        .loader {
+          border: 16px solid #f3f3f3;
+          border-radius: 50%;
+          border-top: 16px solid #FFF07A;
+          border-right: 16px solid #A767FF;
+          border-bottom: 16px solid #F0D200;
+          border-left: 16px solid #E2b2ff;
+          width: 120px;
+          height: 120px;
+          -webkit-animation: spin 2s linear infinite;
+          animation: spin 2s linear infinite;
+        }
+        
+        @-webkit-keyframes spin {
+          0% { -webkit-transform: rotate(0deg); }
+          100% { -webkit-transform: rotate(360deg); }
+        }
+        
+        @keyframes spin {
+          0% { transform: rotate(0deg); }
+          100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <div class="loader"></div> -->
+    <section class="header">
+        <nav>
+            <a href="index.html"> <img src="images/logo.jfif" alt="" width="80" height="100" title="logo100"> </a>
+            <!-- <a href="index.html"> <img src="images/gcLogo.png" alt=""> </a> -->
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li> <a href="index.html">HOME</a> </li>
+                    <li> <a href="about.html">ABOUT</a> </li>
+                    <li> <a href="course.html">COURSE</a> </li>
+                    <li> <a href="Fee.html">Fee</a> </li>
+                    <li> <a href="blog.html">BLOG</a> </li>
+                    <li> <a href="KrisTeam.html">Team</a> </li>
+                    <li> <a href="contact.html">CONTACT</a> </li>
+                    <li> <a href="Login-SignUp.html">Login</a> </li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>KRIS Online Academy</h1>
+            <p>Kris is an online platform of entry test preparation for admission in kinnaird college.We offer entry test preparatory crash courses of both bs and ms programs.The students will be able to pass their entry test with high scores and secure their position in respective degrees through our online classes and the helping material.</p>
+            <a href="LogSign.html" class="hero-btn">Register to become a member of KRIS</a>
+        </div>
+
+    </section>
+
+    <!----- course ----->
+    <section class="course">
+        <h1>Courses we offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3 style="color: rebeccapurple;">National Testing Service(NTS)</h3>
+                <p style="color: #A767FF;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam delectus, voluptatum iusto assumenda
+                    dolor unde corporis neque ea commodi maiores aut! Dolorem, modi repellat. Asperiores minus fugiat
+                    accusantium ipsum quo?</p>
+            </div>
+            <div class="course-col">
+                <h3 style="color: rebeccapurple;">Graduate Assessment Test(GAT)</h3>
+                <p style="color: #A767FF;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam delectus, voluptatum iusto assumenda
+                    dolor unde corporis neque ea commodi maiores aut! Dolorem, modi repellat. Asperiores minus fugiat
+                    accusantium ipsum quo?</p>
+            </div>
+            <div class="course-col">
+                <h3 style="color: rebeccapurple;">Scholastic Assessment Test(SAT)</h3>
+                <p style="color: #A767FF;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam delectus, voluptatum iusto assumenda
+                    dolor unde corporis neque ea commodi maiores aut! Dolorem, modi repellat. Asperiores minus fugiat
+                    accusantium ipsum quo?</p>
+            </div>
+        </div>
+    </section>
+
+    <!----- campus ----->
+    <!-- <section class="campus">
+        <h1>Our Other Campus</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="images/mybanner.jpg" alt="london">
+                <div class="layer">
+                    <h3>USA</h3>
+                </div>
+            </div>
+            <!-- <div class="campus-col">
+                <img src="images/newyork.png" alt="london">
+                <div class="layer">
+                    <h3>NEW YORK</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/washington.png" alt="london">
+                <div class="layer">
+                    <h3>WASHINGTON</h3>
+                </div>
+            </div> -->
+        <!-- </div>
+    </section> --> -->
+
+
+    <!----- facilities ----->
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>The Facilities we providing to our Students are below as.</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/24_clock.png" style="width: 100px; height: auto;">
+                <h3>24 HOUR LEARNING</h3>
+                <p>The learning platform offers all learners the opportunity to participate in 
+                    continuous learning activities as well as access to live lesson recordings 24 hours a day.
+                </p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/Realtime.png" style="width: 200px; height:auto ;">
+                <h3>REAL-TIME LESSONS</h3>
+                <p>All lessons are taught live by our experienced and expert teachers. 
+                    Within timetabled lessons, we utilise a number of teaching and learning methods.
+                </p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/School.jpg">
+                <h3>ESTABLISHED SCHOOL</h3>
+                <p>There are currently around 1,000 pupils taking advantage of online learning in the Academy, 
+                    with roughly equal numbers of boys and girls.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <!----- testimonial ----->
+    <section class="testimonial">
+        <h1>What Our Student Says</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        <div class="row">
+            <div class="testimonial-col">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample1.jpg" alt="img">
+                <div>
+                    <p>Good Team Work</p>
+                    <h3>Ayesha Aslam</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+            </div>
+            <div class="testimonial-col">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample1.jpg" alt="img">
+                <div>
+                    <p>Excellent Team</p>
+                    <h3>Amana Usman</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!----- Call To Action ----->
+    <section class="cta">
+        <h1>Enroll For Our Various Online Cources <br>Anywhere Form The World.</h1>
+        <a href="contact.html" class="hero-btn">CONTACT US</a>
+    </section>
+
+
+    <!----- Footer ----->
+    <section class="footer">
+        <!-- <h4>About Us</h4>
+        <p>KRIS Established in 2021, is a complete interactive Academy. 
+            We welcome learners from across the Pakista. Rather than travelling to school to study – 
+            KRIS comes to you, wherever you are, through our specialised learning portal!</p> -->
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> Powered by Team KRIS.</p>
+    </section>
+
+</body>
+
+</html>
